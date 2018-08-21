@@ -1,0 +1,21 @@
+html {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Robot', sans-serif;
+    height: 100%;
+}
+
+/*.container {*/
+/*}*/
+
+.about {
+    background: linear-gradient(to right, rgba(243, 57, 71, .5), #fff);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 460px 15px 25px;
+    text-align: left;
+}
+
+.intro {
+    font-size: 1.5em;
+}
