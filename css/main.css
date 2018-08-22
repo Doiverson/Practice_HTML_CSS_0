@@ -19,3 +19,31 @@ html {
 .intro {
     font-size: 1.5em;
 }
+
+
+#intro {
+    max-width: 500px;
+    line-height: 30px;
+    margin: 20px auto;
+}
+
+#jurisdiction {
+    text-align: center;
+    width: 960px;
+    padding: 30px 10px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#jurisdiction-wrap div {
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
+
+#jurisdiction-wrap img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 10px auto;
+}
