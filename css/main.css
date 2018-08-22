@@ -27,12 +27,23 @@ html {
     margin: 20px auto;
 }
 
-#jurisdiction {
+#jurisdiction,
+#hour {
     text-align: center;
     width: 960px;
     padding: 30px 10px;
     margin: 0 auto;
     overflow: auto;
+    position: relative;
+}
+
+#jurisdiction:after {
+    content: '';
+    border: solid 1px #A6A9A8;
+    position: absolute;
+    left: 0; /*left 0, bottom 0 = set the border bottom by using pseudo class */
+    bottom: 0;
+    width: 100%;
 }
 
 #jurisdiction-wrap div {
@@ -46,4 +57,16 @@ html {
     width: 140px;
     height: 140px;
     margin: 0 auto 10px auto;
+}
+
+#hour-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hour-wrap div {
+    width: 200px;
+    padding: 0 20px 20px;
+    border: solid 2px black;
+    border-radius: 3px;
 }
