@@ -6,6 +6,12 @@ html {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/*.container {*/
+/*}*/
+
+>>>>>>> origin/master
 =======
 /*.container {*/
 /*}*/
@@ -15,6 +21,7 @@ html {
     background: linear-gradient(to right, rgba(243, 57, 71, .5), #fff);
     margin-top: 15px;
     margin-bottom: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     padding: 15px 460px 15px 70px;
     text-align: left;
@@ -30,6 +37,10 @@ html {
     position: absolute;
     right: 40px;
     border-radius: 50px;
+=======
+    padding: 15px 460px 15px 25px;
+    text-align: left;
+>>>>>>> origin/master
 =======
     padding: 15px 460px 15px 25px;
     text-align: left;
@@ -58,8 +69,12 @@ html {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #jurisdiction:after,
 #hour:after {
+=======
+#jurisdiction:after {
+>>>>>>> origin/master
 =======
 #jurisdiction:after {
 >>>>>>> origin/master
@@ -72,11 +87,14 @@ html {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #jurisdiction-wrap {
     text-align: center;
     position: relative;
 }
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 #jurisdiction-wrap div {
@@ -102,6 +120,7 @@ html {
     padding: 0 20px 20px;
     border: solid 2px black;
     border-radius: 3px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -156,6 +175,9 @@ html {
     }
 }
 
+=======
+}
+>>>>>>> origin/master
 =======
 }
 >>>>>>> origin/master
