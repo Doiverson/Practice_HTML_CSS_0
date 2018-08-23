@@ -1,0 +1,161 @@
+html {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Robot', sans-serif;
+    height: 100%;
+}
+
+<<<<<<< HEAD
+=======
+/*.container {*/
+/*}*/
+
+>>>>>>> origin/master
+.about {
+    background: linear-gradient(to right, rgba(243, 57, 71, .5), #fff);
+    margin-top: 15px;
+    margin-bottom: 15px;
+<<<<<<< HEAD
+    padding: 15px 460px 15px 70px;
+    text-align: left;
+    position: relative;
+}
+
+.about p {
+    letter-spacing: 1.5px;
+}
+
+.about img {
+    width: 400px;
+    position: absolute;
+    right: 40px;
+    border-radius: 50px;
+=======
+    padding: 15px 460px 15px 25px;
+    text-align: left;
+>>>>>>> origin/master
+}
+
+.intro {
+    font-size: 1.5em;
+}
+
+
+#intro {
+    max-width: 500px;
+    line-height: 30px;
+    margin: 20px auto;
+}
+
+#jurisdiction,
+#hour {
+    text-align: center;
+    width: 960px;
+    padding: 30px 10px;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+}
+
+<<<<<<< HEAD
+#jurisdiction:after,
+#hour:after {
+=======
+#jurisdiction:after {
+>>>>>>> origin/master
+    content: '';
+    border: solid 1px #A6A9A8;
+    position: absolute;
+    left: 0; /*left 0, bottom 0 = set the border bottom by using pseudo class */
+    bottom: 0;
+    width: 100%;
+}
+
+<<<<<<< HEAD
+#jurisdiction-wrap {
+    text-align: center;
+    position: relative;
+}
+
+=======
+>>>>>>> origin/master
+#jurisdiction-wrap div {
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
+
+#jurisdiction-wrap img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 10px auto;
+}
+
+#hour-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hour-wrap div {
+    width: 200px;
+    padding: 0 20px 20px;
+    border: solid 2px black;
+    border-radius: 3px;
+<<<<<<< HEAD
+}
+
+
+/*Media query*/
+
+@media screen and (max-width: 959px) {
+
+    .about {
+        padding: 10px;
+    }
+
+    .about h1 {
+        font-size: 1.9em;
+    }
+
+    .about p {
+        letter-spacing: unset;
+    }
+
+    .intro {
+        font-size: 1.2em;
+    }
+
+    .mq {
+        text-align: center;
+    }
+
+    .about img {
+        position: static;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #jurisdiction,
+    #hour {
+        width: 80%;
+    }
+
+    #jurisdiction-wrap div {
+        width: 250px;
+    }
+
+    #hour-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hour-wrap div {
+        width: 300px;
+        margin-bottom: 5px;
+    }
+}
+
+=======
+}
+>>>>>>> origin/master
