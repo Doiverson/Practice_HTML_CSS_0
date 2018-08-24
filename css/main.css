@@ -47,7 +47,7 @@ html {
 }
 
 #jurisdiction:after,
-#hour:after {
+#hour::after {
     content: '';
     border: solid 1px #A6A9A8;
     position: absolute;
