@@ -1,8 +1,7 @@
-/*html {*/
-/*max-width: 1440px;*/
-/*font-family: 'Robot', sans-serif;*/
-/*height: 100%;*/
-/*}*/
+
+*{
+    font-family: 'Crimson Text', serif;
+}
 
 /*Header*/
 @media only screen and (min-width: 762px) {
@@ -391,7 +390,7 @@
 
 .service-left {
     width: 45%;
-    margin-right: 20px;
+    margin-right: 90px;
     position: relative;
     overflow: hidden;
     border-radius: 50px;
@@ -448,6 +447,7 @@
 }
 
 .service-list p {
+    padding: 10px;
     margin: 0;
     text-align: center;
 }
