@@ -1,14 +1,4 @@
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-
-*{
-    font-family: 'Crimson Text', serif;
-}
->>>>>>> 74cece34b7038dc10fb8bfc609975e87cfe70335
->>>>>>> fa8a175e60e3dd774ae135ad30d9ab38dae9cac7
 
 *{
     font-family: 'Crimson Text', serif;
@@ -105,7 +95,7 @@
 .service-wrap {
     width: 1300px;
     height: 400px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     display: flex;
     align-items: flex-start;
 }
@@ -150,7 +140,7 @@
 }
 
 .service-list li {
-    line-height: 50px;
+    line-height: 35px;
     background-color: silver;
     margin-bottom: 3px;
 }
@@ -160,22 +150,23 @@
 }
 
 .service-list li:hover .service-sub {
-    height: 50px;
+    height: 35px;
 }
 
 .service-list li:hover .service-sub.overview,
 .service-list li:hover .service-sub.passport {
-    height: 150px;
+    height: 105px;
 }
 
 .service-list li:hover .service-sub.temporary {
-    height: 100px;
+    height: 70px;
 }
 
 .service-list p {
     padding: 10px;
     margin: 0;
     text-align: center;
+    font-size: 21px;
 }
 
 
@@ -291,7 +282,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 190px;
+        margin-bottom: 250px;
     }
 
     .service-list {
